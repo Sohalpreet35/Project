@@ -21,3 +21,4 @@ if __name__ == "__main__":
             print("Please provide a valid integer.") 
     else: 
         print("Usage: python script.py <decimal_number>")   
+        
