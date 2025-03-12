@@ -14,6 +14,7 @@ def decimal_to_hex(decimal_value):
     return hexadecimal  # Return the hexadecimal value for testing1 
 if __name__ == "__main__": 
     if len(sys.argv) > 1: 
+        # Exception Handling
         try: 
             decimal_value = int(sys.argv[1])  
             decimal_to_hex(decimal_value) 
